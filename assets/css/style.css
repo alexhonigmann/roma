@@ -1,0 +1,88 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Mr Dafoe', cursive; */
+} 
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* header *********************************/
+.header{
+    background: url(../img/1.bild.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 500vh;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    left: 85%;
+    top: 1vh;
+    width: 5vw;
+    height: 5vh;
+    z-index: 999;
+} 
+
+.logo{
+    position: absolute;
+    left: 90%;
+    top: 1vh;
+    color: #ffffff;
+}
+
+.header h1{
+    margin-top: 0;
+    color: #ffffff;
+    position: absolute;
+    left: 10%;
+    top: 15vh;
+    font-size: 5vw;
+    width: 30%;
+}
+
+.scroll{
+    position: absolute;
+    left: 10%;
+    top: 70vh;
+    color: #e7bc0e;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 2vw;
+}
+
+.header h6{
+    position: absolute;
+    left: 20%;
+    top: 110vh;
+    color: #6bc1a3;
+    font-size: 2.5vw;
+    width: 47%;
+}
+.header span{
+    color: #ffffff;
+    background-color: #29272A;
+}
+
+.first-pic{
+    position: absolute;
+    top: 230vh;
+    width: 10%;
+    height: 10vh;
+    left: 40%;
+}
+
+.header h3{
+    position: absolute;
+    left: 40%;
+    top: 260vh;
+    color: #e7bc0e;
+}
+
+.header h2{
+    position: absolute;
+    left: 40%;
+    top: 250vh;
+    color: #e7bc0e;
+}
+
