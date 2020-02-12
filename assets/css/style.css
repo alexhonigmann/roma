@@ -1,10 +1,15 @@
 html{
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Mr Dafoe', cursive; */
 } 
+@font-face{
+    font-family: Santio bold;
+    src: url(../fonts/SANTIO/OTP/Santio\ Bold.otf);
+}
 body{
     padding: 0;
     margin: 0;
+    font-family: Santio bold;
 }
 
 /* header *********************************/
@@ -18,18 +23,20 @@ body{
 
 .heart{
     position: absolute;
-    left: 85%;
-    top: 1vh;
-    width: 5vw;
-    height: 5vh;
+    left: 84.5%;
+    top: 2vh;
+    width: 3vw;
+    height: 3vh;
     z-index: 999;
 } 
 
 .logo{
     position: absolute;
-    left: 90%;
+    left: 87.5%;
     top: 1vh;
     color: #ffffff;
+    border-bottom: 1px solid #e7bc0e;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header h1{
@@ -67,22 +74,139 @@ body{
 .first-pic{
     position: absolute;
     top: 230vh;
-    width: 10%;
-    height: 10vh;
-    left: 40%;
-}
-
-.header h3{
-    position: absolute;
-    left: 40%;
-    top: 260vh;
-    color: #e7bc0e;
+    width: 16vw;
+    height: 16vh;
+    left: 30%;
 }
 
 .header h2{
     position: absolute;
-    left: 40%;
-    top: 250vh;
+    left: 32%;
+    top: 243vh;
     color: #e7bc0e;
+    font-size: 10vw;
 }
+
+.header h3{
+    position: absolute;
+    left: 32%;
+    top: 268vh;
+    color: #e7bc0e;
+    font-size: 3vw;
+}
+
+.pic-13{
+    position: absolute;
+    top: 300vh;
+    width: 16vw;
+    height: 16vh;
+    left: 30%;
+}
+
+.header h4{
+    position: absolute;
+    left: 32%;
+    top: 312vh;
+    color: #cb91b6 ;
+    font-size: 3vw;
+}
+
+.header .hr13{
+    position: absolute;
+    left: 32%;
+    top: 308vh;
+    color: #cb91b6 ;
+    font-size: 10vw;
+    font-family: Santio bold;
+}
+
+.header .health-insurance-pic{
+    position: absolute;
+    top: 358vh;
+    width: 16vw;
+    height: 16vh;
+    left: 30%;
+}
+
+.header .heal-ins{
+    position: absolute;
+    left: 32%;
+    top: 353vh;
+    color: #6bc1a3;
+    font-size: 10vw;
+}
+
+.header .have-no{
+    position: absolute;
+    left: 32%;
+    top: 388vh;
+    color:  #6bc1a3;
+    font-size: 3vw;
+}
+
+.header .domest-work{
+    position: absolute;
+    left: 35%;
+    top: 420vh;
+    color: #7eb8e1;
+    font-size: 2.5vw;
+    width: 47%;
+}
+
+/* main */
+
+main div{
+    background: url(../img/kid.png) center/ cover no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+/* footer */
+
+footer div{
+    background: #000000;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+footer h1{
+    margin-top: 0;
+    color: #ffffff;
+    position: absolute;
+    left: 10%;
+    top: 15vh;
+    font-size: 5vw;
+    width: 40%;
+}
+
+footer .donate{
+    position: absolute;
+    left: 10%;
+    top: 60vh;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 1.5vw 5.5vh;
+    font-size: 4vh;
+}
+
+footer p{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    font-size: 10px;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+.film{
+    text-decoration: none;
+    color: #6bc1a3;
+}
+
+
+
+
 
