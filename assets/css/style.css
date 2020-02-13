@@ -211,6 +211,10 @@ footer p{
     color: #6bc1a3;
 }
 
+.film:hover{
+    border-bottom: 2px solid #6bc1a3;
+}
+
 
 
 
