@@ -192,6 +192,11 @@ footer .donate{
     font-size: 4vh;
 }
 
+footer .donate:hover{
+    border-right: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+}
+
 footer p{
     position: absolute;
     left: 50%;
